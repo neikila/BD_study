@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Числа от 1 до 10</title>
+	</head>
+	<form action=" "
+	<body bgcolor = silver>
+		<div>
+			<?php echo $output;?>
+		</div>
+	</body>
+</html>
+
+
+<?php
+	if ( $_REQUEST['firstname'] )
+	{ include 'form.html.php'; }
+	else
+	{
+		$firstname = $_REQUEST['firstname'];
+		$output = 'Добра пожаловать '.$firstname;
+		include 'out.html.php';
+	}
+?>

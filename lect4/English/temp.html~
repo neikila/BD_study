@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>
+		Ввод индекса
+	</title>
+</head>
+<body bgcolor=silver text=green>
+	<h2 align=center>Введите<h2><br>
+	<form action=" " method = GET>
+		<div align = center>
+			<label for=gruppa style="fonr-size: 14pt; color:green"> Insert group index. </label>
+			<input type = text id=gruppa name=gruppa><br><br>
+			<table border=0 width=80%>
+				<tbody>
+					<tr>
+						<td alugn=center><input type=reset style="font-size: 14pt; color: red" value="Erase"> </td>
+						<td alugn=center><input type=submit name=send style="font-size: 14pt; color: red" value="Send"> </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</form>
+</body>
+</html>

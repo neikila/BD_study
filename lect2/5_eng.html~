@@ -1,0 +1,17 @@
+<html>
+<title>Checkbox</title>
+	<body bgcolor=silver text=black>
+		<h2>Choose subgect</h2>
+		<form action="http://loacalhost?check.php" method=post>
+			<div align=center>
+				<input type=checkbox name=r1[] value=1>Tables<br><br>
+				<input type=checkbox name=r1[] value=2>Chairs<br><br>
+				<input type=checkbox name=r1[] value=3>Tamboorine<br><br>
+			</div>
+			<div>
+				<td align=center><input type=submit style="font-size;14pt;color=red" name=s1 value=Ыутв></td>
+			</div>
+		</form>
+	</body>
+</html>
+		

@@ -1,0 +1,11 @@
+<form action="http://localhost/lab1/book.php" method=get>
+	<input type=	text>		value -> значение по умолчанию
+			password	value -> значение по умолчанию
+			hidden		value -> передаваемое значение
+			checkbox	value -> передается, если поставлена галочка
+			reset		value -> что написано на кнопке
+			submit		value -> что написано на кнопке
+		name = <имя поля>
+		id = <имя поле>
+		value = <значение>
+</form>

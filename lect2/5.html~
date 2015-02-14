@@ -1,0 +1,13 @@
+<html>
+	<body bgcolor=silver text=black>
+		<h2>Выберите товар</h2>
+		<form action="http://loacalhost?check.php" method=post>
+			<div align=center>
+				<input type=checkbox name=r1[] value=1>Столы<br><br>
+				<input type=checkbox name=r1[] value=2>Стулья<br><br>
+				<input type=checkbox name=r1[] value=3>Табуретки<br><br>
+			</div>
+		</form>
+	</body>
+</html>
+		
